@@ -129,7 +129,5 @@ public class TasksFromLesson2 {
             ar [i] = initialValue;
         }
         return ar;
-
-
     }
 }
