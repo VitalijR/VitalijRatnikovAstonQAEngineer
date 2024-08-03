@@ -81,5 +81,8 @@ public class Main {
         // Проверка задачи №14
         System.out.println("Проверка задачи №14 Длина и значения в массиве");
         System.out.println(Arrays.toString(tl.returnArray(6, 88)));
+
+
+        
     }
 }
