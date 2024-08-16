@@ -10,7 +10,7 @@ public class Employee {
     int age;
 
     // Конструктор объекта с аргументами
-    Employee (String name, String position, String email, String phoneNumber, int salary, int age){
+    Employee(String name, String position, String email, String phoneNumber, int salary, int age) {
         this.name = name;
         this.position = position;
         this.email = email;
@@ -20,7 +20,7 @@ public class Employee {
     }
 
     // Метод выводит в консоль информацию о сотруднике
-    public void printInfo (){
+    public void printInfo() {
         System.out.println("Карточка сотрудника:");
         System.out.println("ФИО: " + this.name + "; Возраст: " + this.age);
         System.out.println("Должность: " + this.position + "; Зарплата: " + this.salary);
