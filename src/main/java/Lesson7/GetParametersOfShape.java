@@ -1,6 +1,6 @@
 package Lesson7;
 
-// Задача №1 Создание интерфейса фигуры
+// Задача №2 Создание интерфейса фигуры
 public interface GetParametersOfShape {
 
     // Абстрактные методы
