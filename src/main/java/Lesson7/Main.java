@@ -74,5 +74,24 @@ public class Main {
             cat.isCatWellFedInfo();
         }
 
+        // Проверка задачи №2
+        System.out.println();
+        System.out.println("Проверка расчета параметров фигур:");
+
+        // Проверка расчета круга
+        Round r1 = new Round(13, "Красный", "Оранжевый");
+        r1.shapeInfo();
+
+        System.out.println();
+
+        // Проверка расчета прямоугольника
+        Rectangle r2 = new Rectangle(10, 15, "Желтый", "Зеленый");
+        r2.shapeInfo();
+
+        System.out.println();
+
+        // Проверка расчета треугольника
+        Triangle t1 = new Triangle(5, 5, 9, "Синий", "Фиолетовый");
+        t1.shapeInfo();
     }
 }
