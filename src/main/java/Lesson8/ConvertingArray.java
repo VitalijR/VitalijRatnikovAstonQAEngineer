@@ -30,21 +30,14 @@ public class ConvertingArray {
             }
         }
 
-        // Преобразование строкового массива в числовой
-        int[][] arrayInt = new int[4][4];
-        for (int i = 0; i < 4; i++) {
-            for (int y = 0; y < 4; y++) {
-                arrayInt[i][y] = Integer.parseInt(arrayString[i][y]);
-            }
-        }
-
         // Подсчет суммы чисел
         int sum = 0;
         for (int i = 0; i < 4; i++) {
             for (int y = 0; y < 4; y++) {
-                sum = sum + arrayInt[i][y];
+                sum = sum + (Integer.parseInt(arrayString[i][y]));
             }
         }
+
         return sum;
     }
 }
