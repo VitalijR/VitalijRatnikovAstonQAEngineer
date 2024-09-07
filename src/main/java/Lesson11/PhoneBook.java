@@ -1,14 +1,13 @@
 package Lesson11;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.TreeMap;
 
 // Задача №2 Телефонная книга
 public class PhoneBook {
 
     // Коллекция хранит фамилии в качестве ключей и номера в качестве значений
-    TreeMap<String, List<String>> book = new TreeMap<>();
+    TreeMap<String, ArrayList<String>> book = new TreeMap<>();
 
     // Метод add() для добавления абонентов
     public void add(String lastName, String phoneNumber) {
