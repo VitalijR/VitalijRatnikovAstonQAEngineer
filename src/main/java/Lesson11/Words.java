@@ -11,8 +11,10 @@ public class Words {
             "Ballantines", "Johnnie Walker", "Chivas Regal", "Ballantines", "Maker’s Mark",
             "Johnnie Walker", "Auchentoshan", "Johnnie Walker", "Auchentoshan", "Ballantines"};
 
-    /** Метод возвращает HashSet с уникальными значениями из массива
-    (используется в остальных методах класса) */
+    /**
+     * Метод возвращает HashSet с уникальными значениями из массива
+     * (используется в остальных методах класса)
+     */
     public HashSet<String> getUniqueValues(String[] s) {
         return new HashSet<>(List.of(s));
     }
