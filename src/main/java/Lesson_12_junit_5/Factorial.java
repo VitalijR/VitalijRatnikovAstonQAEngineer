@@ -4,7 +4,6 @@ package Lesson_12_junit_5;
 public class Factorial {
 
     // Метод возвращает факториал числа.
-
     public int getFactorial(int factorial) {
         int f = 1;
         if (factorial > 0) {

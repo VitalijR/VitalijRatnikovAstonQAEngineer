@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 public class FactorialJunitTest {
 
     // Позитивный тест
-
     @Test
     public void factorialTest (){
         Factorial fTest = new Factorial();
