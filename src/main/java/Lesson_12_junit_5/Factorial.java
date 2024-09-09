@@ -1,7 +1,6 @@
 package Lesson_12_junit_5;
 
 // Создание класса Factorial
-// Задача №1
 public class Factorial {
 
     // Метод возвращает факториал числа.
