@@ -10,5 +10,6 @@ public class Main {
         System.out.println(f.getFactorial(5));
         System.out.println(f.getFactorial(6));
         System.out.println(f.getFactorial(-5));
+        System.out.println(f.getFactorial(-5));
     }
 }
