@@ -6,7 +6,7 @@ public class Main {
         // Создание экземпляра класса Factorial
         Factorial f = new Factorial();
 
-        // Вызовы метода getFactorial с разными значениями
+        // Вызовы метода getFactorial с разными значениями.
         System.out.println(f.getFactorial(5));
         System.out.println(f.getFactorial(6));
         System.out.println(f.getFactorial(-5));
