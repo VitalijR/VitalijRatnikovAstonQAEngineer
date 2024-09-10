@@ -8,7 +8,7 @@ public class Main {
 
         // Вызовы метода getFactorial с разными значениями.
         System.out.println(f.getFactorial(5));
-        System.out.println(f.getFactorial(6));
+        System.out.println(f.getFactorial(0));
         System.out.println(f.getFactorial(-5));
     }
 }

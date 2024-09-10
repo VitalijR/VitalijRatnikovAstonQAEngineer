@@ -6,24 +6,24 @@ import org.junit.jupiter.api.Test;
 // Задача №1 Создание тестов для класса Factorial с использованием junit 5
 public class FactorialJunitTest {
 
-    // Позитивный тест
+    // Создание экземпляра класса Factorial
+    Factorial fTest = new Factorial();
+
+    // Тест с положительным числом
     @Test
     public void factorialTest (){
-        Factorial fTest = new Factorial();
         Assertions.assertEquals(720, fTest.getFactorial(6));
     }
 
-    // Негативный тест
+    // Тест с нулём
     @Test
-    public void factorialTest2 (){
-        Factorial fTest = new Factorial();
-        Assertions.assertNotEquals(100, fTest.getFactorial(5));
+    public void factorialTest2 () {
+        Assertions.assertEquals(1, fTest.getFactorial(0));
     }
 
-    // Позитивный тест
+    // Тест с отрицательным числом
     @Test
     public void factorialTest3 (){
-        Factorial fTest = new Factorial();
         Assertions.assertEquals(0, fTest.getFactorial(-15));
     }
 }
