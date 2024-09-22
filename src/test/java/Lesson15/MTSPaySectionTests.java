@@ -13,7 +13,7 @@ public class MTSPaySectionTests {
 
     WebDriver driver;
 
-    // В блоке BeforeClass производится подготовка к тестам
+    // В блоке BeforeClass производится подготовка к тестам.
     @BeforeClass
     public void setUp() {
 
