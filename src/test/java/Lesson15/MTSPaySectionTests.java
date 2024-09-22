@@ -69,7 +69,7 @@ public class MTSPaySectionTests {
     @Test
     public void testLinkIsCorrect() {
 
-        // Поиск ссылки и нажатие
+        // Поиск и нажатие ссылки
         WebElement link = driver.findElement(By.cssSelector("#pay-section > div > div > div.col-12.col-xl-8 > section > div > a"));
         link.click();
 
